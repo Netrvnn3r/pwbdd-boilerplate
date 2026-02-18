@@ -1,4 +1,4 @@
-# Framework de Automatización QA — WallmartQA
+# Framework de Automatización QA — Playwright BDD
 
 Framework de pruebas automatizadas construido con **Playwright** y **Playwright-BDD** (Cucumber/Gherkin), usando el patrón **Page Object Model** y TypeScript.
 
