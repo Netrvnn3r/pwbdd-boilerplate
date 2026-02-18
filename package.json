@@ -1,0 +1,50 @@
+{
+  "name": "playwright-bdd-framework-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headless": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:smoke": "playwright test --grep @smoke",
+    "test:regression": "playwright test --grep @regression",
+    "test:report": "playwright show-report",
+    "bddgen": "npx bddgen"
+  },
+  "keywords": [
+    "PlaywrightBDD",
+    "Playwright",
+    "BDD",
+    "Framework",
+    "POM",
+    "TypeScript",
+    "Cucumber",
+    "Gherkin",
+    "Playwright-BDD",
+    "Playwright-Cucumber",
+    "Playwright-Gherkin",
+    "Playwright-POM",
+    "Playwright-TypeScript",
+    "Playwright-Cucumber-Gherkin",
+    "Playwright-Cucumber-POM",
+    "Playwright-Cucumber-TypeScript",
+    "Playwright-Gherkin-POM",
+    "Playwright-Gherkin-TypeScript",
+    "Playwright-POM-TypeScript",
+    "Playwright-Cucumber-Gherkin-POM",
+    "Playwright-Cucumber-Gherkin-TypeScript",
+    "Playwright-Cucumber-POM-TypeScript",
+    "Playwright-Gherkin-POM-TypeScript",
+    "Playwright-Cucumber-Gherkin-POM-TypeScript"
+  ],
+  "author": "THE NETRVNNER == J GABRIEL HAUYON",
+  "private": true,
+  "description": "Playwright BDD Framework boilerplate",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "cucumber": "^6.0.7",
+    "playwright-bdd": "^8.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

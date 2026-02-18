@@ -1,0 +1,12 @@
+{
+    "cucumber.features": [
+        "features/**/*.feature"
+    ],
+    "cucumber.glue": [
+        "steps/**/*.ts"
+    ],
+    "cucumber.autocomplete.steps": [
+        "steps/**/*.ts"
+    ],
+    "cucumber.autocomplete.strictGherkinCompletion": true
+}
